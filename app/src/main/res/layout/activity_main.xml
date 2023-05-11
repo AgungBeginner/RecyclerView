@@ -19,6 +19,7 @@
             android:id="@+id/textview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:layout_marginTop="5dp"
             android:padding="5dp"
             android:textAlignment="center"
@@ -35,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         tools:listitem="@layout/list_item_pemain"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="40dp"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         tools:ignore="MissingConstraints" />
 

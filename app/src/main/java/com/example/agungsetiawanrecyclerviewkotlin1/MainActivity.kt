@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val listPemain = ArrayList<Pemain>()
-        listPemain.add(Pemain("Thibaut Courtois",R.drawable.courtois,"Penjaga Gawang","2.00","Tegal","11 mei 1992"))
+        listPemain.add(Pemain("Courtois",R.drawable.courtois,"penjaga gawang","1.89","Depok","11 mei 1999"))
         listPemain.add(Pemain("Benzema",R.drawable.download,"Penyerang","1.86","Bandung","12 Mei 1999"))
         listPemain.add(Pemain("Marcelo",R.drawable.marcelo,"Gelandang","1.79","Papua","13 April 1990"))
         listPemain.add(Pemain("Grealish",R.drawable.grealish,"Geladang","1.80","Bogor","12 September 1990"))
@@ -35,10 +35,9 @@ class MainActivity : AppCompatActivity() {
 
                     val image  = this.findViewById<ImageView>(R.id.image_pemain)
                     val nama    = this.findViewById<TextView>(R.id.txtNamaPemain)
-
                     val posisi    = this.findViewById<TextView>(R.id.txtPosisi)
-                    val tinggi    = this.findViewById<TextView>(R.id.txtNamaPemain)
-                    val tempatlahir    = this.findViewById<TextView>(R.id.txtTinggi)
+                    val tinggi    = this.findViewById<TextView>(R.id.txtTinggi)
+                    val tempatlahir    = this.findViewById<TextView>(R.id.txtTempatLahir)
                     val tgllahir    = this.findViewById<TextView>(R.id.txtTanggalLahir)
                     val btn      = this.findViewById<Button>(R.id.btnClose)
 
