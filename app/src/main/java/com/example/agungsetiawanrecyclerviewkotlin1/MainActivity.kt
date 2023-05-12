@@ -25,6 +25,21 @@ class MainActivity : AppCompatActivity() {
         listPemain.add(Pemain("Marcelo",R.drawable.marcelo,"Gelandang","1.79","Papua","13 April 1990"))
         listPemain.add(Pemain("Grealish",R.drawable.grealish,"Geladang","1.80","Bogor","12 September 1990"))
         listPemain.add(Pemain("Erling",R.drawable.halland,"Penyerang","1.90","Bekasi","12 Desember 1990"))
+        listPemain.add(Pemain("Courtois",R.drawable.courtois,"penjaga gawang","1.89","Depok","11 mei 1999"))
+        listPemain.add(Pemain("Benzema",R.drawable.download,"Penyerang","1.86","Bandung","12 Mei 1999"))
+        listPemain.add(Pemain("Marcelo",R.drawable.marcelo,"Gelandang","1.79","Papua","13 April 1990"))
+        listPemain.add(Pemain("Grealish",R.drawable.grealish,"Geladang","1.80","Bogor","12 September 1990"))
+        listPemain.add(Pemain("Erling",R.drawable.halland,"Penyerang","1.90","Bekasi","12 Desember 1990"))
+        listPemain.add(Pemain("Courtois",R.drawable.courtois,"penjaga gawang","1.89","Depok","11 mei 1999"))
+        listPemain.add(Pemain("Benzema",R.drawable.download,"Penyerang","1.86","Bandung","12 Mei 1999"))
+        listPemain.add(Pemain("Marcelo",R.drawable.marcelo,"Gelandang","1.79","Papua","13 April 1990"))
+        listPemain.add(Pemain("Grealish",R.drawable.grealish,"Geladang","1.80","Bogor","12 September 1990"))
+        listPemain.add(Pemain("Erling",R.drawable.halland,"Penyerang","1.90","Bekasi","12 Desember 1990"))
+        listPemain.add(Pemain("Courtois",R.drawable.courtois,"penjaga gawang","1.89","Depok","11 mei 1999"))
+        listPemain.add(Pemain("Benzema",R.drawable.download,"Penyerang","1.86","Bandung","12 Mei 1999"))
+        listPemain.add(Pemain("Marcelo",R.drawable.marcelo,"Gelandang","1.79","Papua","13 April 1990"))
+        listPemain.add(Pemain("Grealish",R.drawable.grealish,"Geladang","1.80","Bogor","12 September 1990"))
+        listPemain.add(Pemain("Erling",R.drawable.halland,"Penyerang","1.90","Bekasi","12 Desember 1990"))
 
         binding.list.adapter = AdaptorTeamBola(this,listPemain,object  : AdaptorTeamBola.OnClickListener {
             override fun detailData(item: Pemain?) {
